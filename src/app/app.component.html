@@ -1,0 +1,257 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Gaming website</title>
+        <link rel="stylesheet" href="C:\Users\HP\OneDrive\Desktop\javascript\game.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+            <source src="C:\Users\HP\OneDrive\Desktop\javascript\New folder\WhatsApp Video 2022-09-27 at 6.19.50 PM.mp4" type="video/mp4">
+            </video>
+        <header>
+            <a href="#" class="logo">Gammers</a>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#tournaments">Tournaments</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="action">
+                <div class="search box">
+                <a href="#"><i class='bx bx-search'></i></a>
+                <input type="text" placeholder="Search Games">
+            </div>
+            </div>
+            <div class="toggleMenu" onclick="togglemenu();"></div>
+        </header>
+
+        <!--Home Banner-->
+        <div class="banner" id="home">
+        <div class="bg">
+            <div class="content">
+                <h2>CALL OF DUTY MODERN WARFARE II</h2>
+                <p>Experience the thrill of Call of Duty on the go. 
+                    Play as iconic characters in battle royale and multiplayer in our best fps free mobile game.
+                    </p>
+                <a href="#" class="btn">Join Now</a>
+            </div>
+        </div>
+        </div>
+        <!-- About -->
+        <div class="about" id="about">
+            <div class="contentBx">
+            <h2>About Us</h2>
+            <p>Call of Duty is a first-person shooter video game franchise published by Activision.
+                 Starting out in 2003, it first focused on games set in World War II. 
+                 Over time, the series has seen games set in the midst of the Cold War, futuristic worlds, and outer space.
+                  The games were first developed by Infinity Ward, then also by Treyarch and Sledgehammer Games. 
+                  Several spin-off and handheld games were made by other developers. The most recent title, Call of Duty: Vanguard, was released on November 5, 2021.
+                 The next title, Call of Duty: Modern Warfare II, will be released on October 28, 2022.</p>
+                 <a href="#">Read more</a>
+            </div>
+            <img src="https://sm.askmen.com/askmen_in/photo/default/article-1849-2-features_jmum.jpg" alt="call of duty" width="600" height="600">
+                </div>
+                <!-- Games -->
+                <div class="games" id="games">
+                    <h2>Popular Games</h2>
+                    <ul>
+                        <li class="list active" data-filter="all">All</li>
+                        <li class="list" data-filter="pc">Pc Games</li>
+                        <li class="list" data-filter="mobile">Mobile Games</li>
+                    </ul>
+                    <div class="cardBx">
+                    <div class="card" data-item="pc">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNTdrD4CB15uV3wtAwR5vDWBHdwFwuAS7osw&usqp=CAU" >
+                        <div class="content">
+                            <h4>Grand Theft Auto</h4>
+                            <div class="progress-line"><span></span></div>
+                            <div class="info">
+                                <p>pricing<br><span>₹10</span></p>
+                                <a href="#">Play Now</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card" data-item="mobile">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiDALb8KGDNMehKTUgqy9S2jCdGW9V-BHp2Q&usqp=CAU" >
+                            <div class="content">
+                                <h4>Fortnite</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>pricing<br><span>₹10</span></p>
+                                    <a href="#">Play Now</a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="card" data-item="Pc">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_Z8JqwNBxiUFa5BL19YnEOdoO9Xf1droMA&usqp=CAU" >
+                                <div class="content">
+                                    <h4>Batman Arkham City</h4>
+                                    <div class="progress-line"><span></span></div>
+                                    <div class="info">
+                                        <p>pricing<br><span>₹20</span></p>
+                                        <a href="#">Play Now</a>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="card" data-item="Pc">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0IA_YPsRNn72ULs2TvwVfc-ospBC5kfyZMw&usqp=CAU" >
+                                    <div class="content">
+                                        <h4>Assassins Creed Valhalla</h4>
+                                        <div class="progress-line"><span></span></div>
+                                        <div class="info">
+                                            <p>pricing<br><span>₹50</span></p>
+                                            <a href="#">Play Now</a>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="card" data-item="mobile">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzwJc5oizNl4uSo_8a3raSK5C_smfS7bjLJQ&usqp=CAU" >
+                                        <div class="content">
+                                            <h4>Spider Man</h4>
+                                            <div class="progress-line"><span></span></div>
+                                            <div class="info">
+                                                <p>pricing<br><span>₹50</span></p>
+                                                <a href="#">Play Now</a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" data-item="Pc">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvpPC-zGNBdKPSNWMjLdFlf-JL4EhfWG4uw&usqp=CAU">
+                                            <div class="content">
+                                                <h4>God Of War</h4>
+                                                <div class="progress-line"><span></span></div>
+                                                <div class="info">
+                                                    <p>pricing<br><span>₹600</span></p>
+                                                    <a href="#">Play Now</a>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="card" data-item="mobile">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmKMA5fUx9c_5QgBfvlFnvThzQweCXbuUPCQ&usqp=CAU">
+                                                <div class="content">
+                                                    <h4>Battle Grounds of Mobile</h4>
+                                                    <div class="progress-line"><span></span></div>
+                                                    <div class="info">
+                                                        <p>pricing<br><span>₹50</span></p>
+                                                        <a href="#">Play Now</a>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card" data-item="Pc">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh5Yk_LNiOUFK_XPuHEzR-kCSKu-S9jRueLg&usqp=CAU">
+                                                    <div class="content">
+                                                        <h4>Shadow Fight Arena</h4>
+                                                        <div class="progress-line"><span></span></div>
+                                                        <div class="info">
+                                                            <p>pricing<br><span>₹50</span></p>
+                                                            <a href="#">Play Now</a>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card" data-item="Pc">
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-pC4ofvjzVZH4Mt81f5sHbBbIddE0cEubFw&usqp=CAU">
+                                                        <div class="content">
+                                                            <h4>Mortal Kombat</h4>
+                                                            <div class="progress-line"><span></span></div>
+                                                            <div class="info">
+                                                                <p>pricing<br><span>₹50</span></p>
+                                                                <a href="#">Play Now</a>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card" data-item="mobile">
+                                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf7kEepRi6oFZnbj-TyYthTQA1dYmlS6xOHQ&usqp=CAU">
+                                                            <div class="content">
+                                                                <h4>Free Fire</h4>
+                                                                <div class="progress-line"><span></span></div>
+                                                                <div class="info">
+                                                                    <p>pricing<br><span>₹50</span></p>
+                                                                    <a href="#">Play Now</a>
+                                                                </div>
+                                                                </div>
+                                                            </div>
+                    </div>
+                </div>
+                <!-- contact -->
+                <div class="contact" id="contact">
+                    <img src="https://images.ecestaticos.com/phNefp9dBD9d8G8BJQpzKquE9Bo=/0x0:0x0/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F222%2Fd69%2Fe5e%2F222d69e5e79fbf17b799779dd34a047d.jpg">
+                    
+                
+                    <div class="form">
+                        <h1>Contact Us</h1>
+                        <div class="inputBx">
+                            <p>Enter Name</p>
+                            <input type="text" placeholder="Full Name">
+                        </div>
+                        <div class="inputBx">
+                            <p>Enter Email</p>
+                            <input type="text" placeholder="Full Mail">
+                        </div>
+                        <div class="inputBx">
+                            <p>Message</p>
+                            <textarea placeholder="type here..."></textarea>
+                        </div>
+                        <div class="inputBx">
+                            <input type="submit" value="submit">
+                        </div>
+                    </div>
+                 </div>
+                 <!-- Footer -->
+                 <footer>
+                    <div class="info">
+                        <a href="#" class="logo">Gammers</a>
+                        <ul>
+                            <li><a href="#"></a><i class='bx bxl-facebook' style="background-color:DodgerBlue;"></i></li>
+                            <li><a href="#"></a><i class='bx bxl-instagram' style="background-color: pink;"></i></li>
+                            <li><a href="#"></a><i class='bx bxl-twitter' style="background-color:DodgerBlue;"></i></li>
+                            <li><a href="#"></a><i class='bx bxl-youtube' style="background-color: red;"></i></li>
+                        </ul>
+                    </div>
+                 </footer>
+                <script>
+                    /* Sticky NavBar */
+                    window.addEventListener('scroll',function(){
+                        var header = document.queryselector('header'); 
+                        header.classlist.toggle('Sticky',window.scrolly > 0);
+                    });
+                
+                   
+
+                    /* Filterable Cards */
+
+                    let list = document.querySelectorAll('.list');
+                    let card = document.querySelectorAll('.card');  
+
+
+                    for(let i = 0; i<list.length; i++){
+                        list[i].addEventListener('click',function(){
+                            for(let j=0; j<list.length; j++){
+                                list[j].classList.remove('active');
+                            }
+                            this.classList.add('active');
+
+                            let dataFilter = this.getAttribute('data-filter');
+
+                            for(let k=0; k<card.length; k++)
+                            {
+                                card[k].classList.remove('active');
+                                card[k].classList.add('hide');
+
+    
+
+                                if(card[k].getAnimation('data-item') == dataFilter || dataFilter == 'all'){
+                                    card[k].classList.remove('hide');
+                                card[k].classList.add('active');
+                                }
+                            }
+
+                        })
+                    }
+                   
+
+                </script>
+    </body>
+<router-outlet></router-outlet>
